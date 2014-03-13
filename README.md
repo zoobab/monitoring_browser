@@ -46,7 +46,33 @@ It is also accessible via telnet localhost port 4242 where you can change some
 configs on the fly (like zoom level, refresh, delay, get the status of the
 list, add or remove an URL, etc...)
 
-    $ telnet 127.0.0.1 4242
+    zoobab@turmes /home/zoobab [1]$ telnet 127.1 4242
+    Trying 127.0.0.1...
+    Connected to 127.1.
+    Escape character is '^]'.
+    turmes % help
+    >> help
+    avaible commands:
+      fs
+      help
+      restart
+      upgrade
+      list
+      zoom
+      refresh
+      next
+      add
+      del
+      exit
+    turmes % list
+    >> list
+    current list:
+     [0] 10s : http://status.mobilevikings.com/
+     [1] 10s : http://ihackernews.com
+     [2] 10s : http://demo.kibana.org
+    *[3] 10s : http://logstash.openstack.org
+     [4] 15s : http://demo897:demo@demo.mathias-kettner.de/demo/check_mk/
+    turmes %
 
 TODO
 ====
