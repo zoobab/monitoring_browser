@@ -11,10 +11,18 @@ Configuration
 To display websites in fullscreen, just edit webkit.py and change the lines to have:
 
     url = QUrl("http://www.zoobab.com")
-    self.sites.append(Site(url, 5, 1))
+    self.sites.append(Site(url, 10, 1))
     
     url = QUrl("http://www.linuxfr.org")
-    self.sites.append(Site(url, 5, 1))
+    self.sites.append(Site(url, 10, 1))
+
+    url = QUrl("http://demo.kibana.org")
+    self.sites.append(Site(url, 15, 1))
+
+    url = QUrl("http://demo.mathias-kettner.de/demo/check_mk/")
+    url.setUserName("demo897");
+    url.setPassword("demo");
+    self.sites.append(Site(url, 15, 1))
 
 Be careful to add 4 spaces in front for python indentation.
 

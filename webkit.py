@@ -55,11 +55,17 @@ class Browser(QWidget):
     
     self.socket = False
     
-    url = QUrl("http://www.zoobab.com")
-    self.sites.append(Site(url, 5, 1))
+    url = QUrl("http://status.mobilevikings.com/")
+    self.sites.append(Site(url, 10, 1))
 	   
-    url = QUrl("http://www.linuxfr.org")
-    self.sites.append(Site(url, 5, 1))
+    url = QUrl("http://ihackernews.com")
+    self.sites.append(Site(url, 10, 1))
+
+    url = QUrl("http://demo.kibana.org")
+    self.sites.append(Site(url, 10, 1))
+
+    url = QUrl("http://logstash.openstack.org")
+    self.sites.append(Site(url, 10, 1))
 
     url = QUrl("http://demo.mathias-kettner.de/demo/check_mk/")
     url.setUserName("demo897");
