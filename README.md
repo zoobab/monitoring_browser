@@ -39,8 +39,8 @@ For other distros, your feedback in welcomed.
 
 Would love to see documentation on how to install it for Raspbian.
 
-COMMAND LINE
-============
+Telnet interface
+================
 
 It is also accessible via telnet localhost port 4242 where you can change some
 configs on the fly (like zoom level, refresh, delay, get the status of the
