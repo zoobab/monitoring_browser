@@ -56,7 +56,7 @@ class Browser(QWidget):
     self.socket = False
     
     url = QUrl("http://status.mobilevikings.com/")
-    self.sites.append(Site(url, 10, 1))
+    self.sites.append(Site(url, 10, 1.5))
 	   
     url = QUrl("http://ihackernews.com")
     self.sites.append(Site(url, 10, 1))
