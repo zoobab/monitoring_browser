@@ -10,6 +10,11 @@ Configuration
 
 To display websites in fullscreen, just edit webkit.py and change the lines to have:
 
+    url = QUrl("http://www.zoobab.com")
+    self.sites.append(Site(url, 5, 1))
+    
+    url = QUrl("http://www.linuxfr.org")
+    self.sites.append(Site(url, 5, 1))
 
 
 Dependencies
