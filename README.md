@@ -42,4 +42,6 @@ Would love to see documentation on how to install it for Raspbian.
 Video
 =====
 
-Coming soon...
+See here:
+
+http://www.youtube.com/watch?v=UwPF1F0_Uao
