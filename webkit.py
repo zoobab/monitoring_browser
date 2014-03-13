@@ -61,6 +61,11 @@ class Browser(QWidget):
     url = QUrl("http://www.linuxfr.org")
     self.sites.append(Site(url, 5, 1))
 
+    url = QUrl("http://demo.mathias-kettner.de/demo/check_mk/")
+    url.setUserName("demo897");
+    url.setPassword("demo");
+    self.sites.append(Site(url, 15, 1))
+
     self.server = QTcpServer()
     self.server.listen(QHostAddress.Any, 4242)
 
