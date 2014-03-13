@@ -39,6 +39,23 @@ For other distros, your feedback in welcomed.
 
 Would love to see documentation on how to install it for Raspbian.
 
+COMMAND LINE
+============
+
+It is also accessible via telnet localhost port 4242 where you can change some
+configs on the fly (like zoom level, refresh, delay, get the status of the
+list, add or remove an URL, etc...)
+
+    $ telnet 127.0.0.1 4242
+
+TODO
+====
+
+* Raspberrypi / raspbian installation
+* Change user-agents for certain sites
+* Handle URLs that fails
+* Document the API accessible at: $ telnet 127.0.0.1 4242 
+
 Video
 =====
 
