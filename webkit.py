@@ -55,9 +55,12 @@ class Browser(QWidget):
     
     self.socket = False
     
-    url = QUrl("https://google.fr")
-    self.sites.append(Site(url, 60, 1))
-        
+    url = QUrl("http://www.zoobab.com")
+	self.sites.append(Site(url, 5, 1))
+		   
+	url = QUrl("http://www.linuxfr.org")
+	self.sites.append(Site(url, 5, 1))
+
     self.server = QTcpServer()
     self.server.listen(QHostAddress.Any, 4242)
 
